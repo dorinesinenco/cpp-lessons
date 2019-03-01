@@ -4,12 +4,12 @@
 class FridgeProduct {
     public:
         // MEMBERS
-        // properties
         int volume = 100; // L
         int power = 10;  // Watt  
         // method
         void on(){
             std::cout << "The fridge is ON";
+            std::cout << "Hello!";
         }
         void off(){
             std::cout << "The fridge is OFF";
